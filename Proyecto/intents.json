@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "saludos"
+            ],
+            "responses": [
+                "Bienvenido, en que te puedo ayudar?.",
+                "Te puedo aclarar alguna duda"
+            ]
+        },
+        {
+            "tag": "curva_consumo",
+            "patterns": [
+                "¿Cual fue mi consumo?",
+                "Muestrame mi consumo",
+                "¿Como ha sido mi consumo?",
+                "Deseo conocer mi consumo de electricidad",
+                "Dame el historial de mi consumo",
+                "¿Qué tan alto ha sido mi consumo?",
+                "¿Cual es mi demanda de energia",
+                "¿cuanto es mi demanda de electricidad?"
+            ],
+            "responses": [
+                "Aqui tienes tu curva de consumo"
+            ]
+        },
+        {
+            "tag": "reducir_planilla",
+            "patterns": [
+                "¿Cómo puedo reducir mi planilla?",
+                "¿Qué puedo hacer para pagar menos en mi factura?",
+                "Dame tips para ahorrar energía",
+                "¿Como puedo bajar el costo de la luz?",
+                "Quiero pagar menos por la electricidad",
+                "¿Como reducir mi factura?"
+            ],
+            "responses": [
+                "Algunas formas de reducir tu consumo incluyen: \n- Usar electrodomesticos eficientes.\n- Apagar luces que no uses.\n- Aprovechar la luz natural.",
+                "Para ahorrar energia, revisa si tienes electrodomésticos de bajo consumo y apaga aquellos que no uses."
+            ]
+        },
+        {
+            "tag": "reportar_corte",
+            "patterns": [
+                "Hay un corte de energía",
+                "No tengo luz",
+                "Se fue la luz en mi casa",
+                "Mi casa esta sin energia",
+                "No tengo electricidad",
+                "Hubo un apagon en mi zona",
+                "No encienden mis electrodomesticos"
+            ],
+            "responses": [
+                "Hemos registrado tu reporte. Un tecnico se comunicará contigo pronto para agendar una visita.",
+                "Tu reporte ha sido registrado exitosamente. Codigo de reporte: 3030. Un tecnico te contactara pronto."
+            ]
+        }
+    ]
+}
